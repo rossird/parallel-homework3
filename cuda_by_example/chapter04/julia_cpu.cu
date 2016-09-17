@@ -37,7 +37,7 @@ int julia( int x, int y ) {
     float jx = scale * (float)(DIM/2 - x)/(DIM/2);
     float jy = scale * (float)(DIM/2 - y)/(DIM/2);
 
-    cuComplex c(-1.1, 0.150);
+    cuComplex c(-1.2, 0.156);
     cuComplex a(jx, jy);
 
     int i = 0;
